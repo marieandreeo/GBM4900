@@ -1,0 +1,1 @@
+"C:\Users\<name of user, eg : Eddie>\AppData\Local\Enthought\Canopy\User\Scripts\pyside-uic.exe" -o <file.py> <file.ui>
