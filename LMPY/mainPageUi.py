@@ -12,7 +12,7 @@ import os
 
 global path_script
 path_script = os.path.dirname(__file__) + '/'
-
+# Main du UI
 class Ui_MainWindow(object):
     global path_script
     def setupUi(self, MainWindow):
