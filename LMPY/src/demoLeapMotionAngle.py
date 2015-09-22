@@ -32,6 +32,8 @@ import threading            # Make multi-threading
 import Queue                # Make queue data
 import datetime             # Determinate date
 
+sys.path.insert(0, "../lib") # CHANGEMENT ICI
+
 # Check if the correct LeapMotion library is installed
 try:
     import Leap
@@ -42,8 +44,8 @@ except ImportError:
     print '---------------------------------------Exit program. ------------------------------------\n'
     sys.exit(2)
 
-# Check if the correct python version in installed
-if not sys.version_info[:3] == (2, 7, 6):
+# Check if the correct python version in installed J'AI CHANGE ICI
+if sys.version_info[:3] >=  (2, 7, 6):
     print '\n--------------------- The correct version of python is not installed --------------------\n'
     print 'You need to install Python 2.7.6 '
     print '1. Delete your version of python '
