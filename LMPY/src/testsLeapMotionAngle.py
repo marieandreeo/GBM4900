@@ -42,7 +42,7 @@ except ImportError:
     sys.exit(2)
 
 # Check if the correct python version in installed----not sys.version_info[:3] == (2, 7, 6):
-if sys.version_info[:3] >=  (2, 7, 6):
+if not sys.version_info[:3] >=  (2, 7, 6):
     print '\n--------------------- The correct version of python is not installed --------------------\n'
     print 'You need to install Python 2.7.6 '
     print '1. Delete your version of python '
